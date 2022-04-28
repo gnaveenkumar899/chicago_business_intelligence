@@ -251,7 +251,7 @@ func GetTaxiTrips(db *sql.DB) {
 	// Get your geocoder.ApiKey from here :
 	// https://developers.google.com/maps/documentation/geocoding/get-api-key?authuser=2
 
-	geocoder.ApiKey = "AIzaSyAeVgbAySzeK9WeGy15G-lNMp-U92TpZEM"
+	geocoder.ApiKey = "AIzaSyAKu0GxqNcnEu5TsaQOY0hfxLL0ECFRWac"
 
 	
 
