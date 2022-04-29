@@ -185,7 +185,7 @@ func main() {
 	//db_connection := "user=postgres dbname=chicago_business_intelligence password=root host=172.19.0.2 sslmode=disable port = 5433"
 	//Option 4
 	//Database application running on Google Cloud Platform. bubbly-granite-347918:us-central1:mypostgres
-	db_connection := "user=postgres dbname=chicago_business_intelligence password=root host=/cloudsql/bubbly-granite-347918:us-central1:mypostgres sslmode=disable port = 5432"
+	db_connection := "user=postgres dbname=chicago_business_intelligence password=root host=/cloudsql/ninth-terminal-348614:us-central1:mypostgres sslmode=disable port = 5432"
 	
 
 	db, err := sql.Open("postgres", db_connection)
