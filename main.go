@@ -184,8 +184,8 @@ func main() {
 	// docker network inspect cbi_backend
 	//db_connection := "user=postgres dbname=chicago_business_intelligence password=root host=172.19.0.2 sslmode=disable port = 5433"
 	//Option 4
-	//Database application running on Google Cloud Platform. 
-	db_connection := "user=postgres dbname=chicago_business_intelligence password=root host=/cloudsql/ninth-terminal-348614:us-central1:mypostgres sslmode=disable port = 5432"
+	//Database application running on Google Cloud Platform. bubbly-granite-347918:us-central1:mypostgres
+	db_connection := "user=postgres dbname=chicago_business_intelligence password=root host=/cloudsql/bubbly-granite-347918:us-central1:mypostgres sslmode=disable port = 5432"
 	
 
 	db, err := sql.Open("postgres", db_connection)
@@ -249,7 +249,7 @@ func GetTaxiTrips(db *sql.DB) {
 	// Get your geocoder.ApiKey from here :
 	// https://developers.google.com/maps/documentation/geocoding/get-api-key?authuser=2
 
-	geocoder.ApiKey = "AIzaSyAKu0GxqNcnEu5TsaQOY0hfxLL0ECFRWac"
+	geocoder.ApiKey = "AIzaSyBYDoKCTmggev0yArFzP7a3_M_DWuUYf0M"
 
 	
 
