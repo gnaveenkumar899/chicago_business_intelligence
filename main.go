@@ -235,7 +235,6 @@ func main() {
 
 func GetTaxiTrips(db *sql.DB) {
 
-
 	// This function is NOT complete
 	// It provides code-snippets for the data source: https://data.cityofchicago.org/Transportation/Taxi-Trips/wrvz-psew
 	// You need to complete the implmentation and add the data source: https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips/m6dm-c72p
